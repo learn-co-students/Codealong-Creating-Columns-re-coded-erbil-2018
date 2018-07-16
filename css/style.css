@@ -70,3 +70,19 @@ figcaption {
 #details a:active {
   color: red;
 }
+
+#featured-property {
+  display: flex;
+  flex-direction: row;
+}
+
+.col-2 { width: 45% }
+
+.col-2 img { width: 100%; }
+
+.col-1 { width:33%; margin:0 auto;}
+
+.col-1 video { width:100%;}
+
+#details { display: flex; }
+.col-3 { width:33%; }
