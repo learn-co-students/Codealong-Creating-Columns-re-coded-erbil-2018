@@ -1,17 +1,15 @@
 @import url(http://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900);
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script);
 
-/* This 
-is 
+/* This
+is
 a comment! */
 
 /* CSS Syntax:
-
 selector {
   property: value;
   property: value;
 }
-
 */
 
 /* Type selector */
@@ -69,4 +67,77 @@ figcaption {
 
 #details a:active {
   color: red;
+}
+
+.d3 {
+  width: 960px;
+  margin: 0 auto;
+  background: #eee;
+}
+
+
+.col-1{
+  float: left;
+  width: 32%;
+  background: #ccc;
+}
+
+.col-2{
+  float: left;
+  width: 66%;
+  background: #ccc;
+}
+.col-3{
+  background: #ccc;
+}
+
+[class*="col-"]{margin-left: 2%}
+
+.first { margin-left: 0%;}
+
+.cfix:after {
+  content: "0";
+  display: block;
+  clear :both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+
+}
+
+video, img {
+  max-width: 100%;
+
+}
+
+section{
+  padding: 20px;
+  margin: 20px;
+
+}
+*{
+  box-sizing : border-box;
+-moz-box-sizing : border-box;
+}
+
+#so {
+  position: fixed;
+  top: 200px;
+  right: 20px;
+  width: 70px;
+  z-index: 1;
+}
+
+#so a {
+  display: block;
+  background: red;
+}
+
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  
 }
